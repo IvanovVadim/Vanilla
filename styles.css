@@ -1,0 +1,35 @@
+/* CSS стили */
+body {
+    background-color: black;
+    /* Черный фон */
+    color: #eded0d;
+    /* Бледно-желтый цвет текста */
+    text-align: center;
+    /* Центрирование текста */
+}
+
+.header {
+    text-align: center;
+    /* Центрирование шапки */
+}
+
+#list {
+    list-style-type: decimal;
+    /* Пронумерованный список */
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eded0d;
+    /* Желтый цвет номера */
+    font-weight: bold;
+    /* Полужирный текст */
+    margin-right: 5px;
+    /* Расстояние между номером и текстом элемента */
+}
+
+#list li button {
+    margin-left: auto;
+}
